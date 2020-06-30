@@ -1,0 +1,128 @@
+@media all and (max-width:1069px){
+    .main-project-card{
+        margin: 0 auto;
+    }
+    .main-project-card:last-child,.main-reviews-wrapper:last-child{
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .main-occupation-wrapper,.main-reviews-row{
+        padding: 0 100px;
+    }
+}
+@media all and (max-width:1110px){
+   .header-wrapper{
+       padding: 20px 10px 0 10px;
+   }
+   .main-projects,.main-connection-wrapper,.main-occupation,.main-answers,.main-partners-wrapper,.main-reviews,.main-contacts,.footer-wrapper{
+       padding: 0 10px;
+   }
+}
+@media all and (max-width:940px){
+    .main-occupation-wrapper,.main-reviews-row{
+        padding: 0 50px;
+        justify-content: space-evenly;
+    }
+    .main-partners-wrapper,.main-contacts-row{
+        justify-content: space-evenly;
+    }
+}
+@media all and (max-width:861px){
+    .header-card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .main-partners-wrapper a{
+        padding: 10px 0;
+    }
+}
+@media all and (max-width:849px){
+    .header{
+        margin-bottom: 445px;
+    }
+    .header-title{
+        font-size: 45px;
+    }
+    .header-card-img{
+        margin-right: 0;
+    }
+}
+@media all and (max-width:840px){
+    .main-occupation-wrapper{
+       flex-direction: column;
+    }
+    .main-contacts-row-card{
+        margin-right: 10px;
+    }
+}
+@media all and (max-width:719px){
+    .main-project-title{
+        margin-bottom: 0;
+    }
+    .main-project-card{
+        margin-top: 60px;
+    }
+    
+}
+@media all and (max-width:633px){
+    .main-connection,.main-occupation,.main-answers,.main-reviews,.main-contacts{
+        margin-bottom: 75px;
+    }
+    .main-reviews-title{
+        padding-top: 75px;
+    }
+    .main-connectio-slogan-title{
+        font-size: 30px;
+    }
+    .main-connectio-slogan-text{
+        font-size: 15px;
+    }
+    .main-connection-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .main-connection-btn-text{
+        padding: 4px 22px;
+    }
+    .main-connection-btn-img{
+        display: none;
+    }
+}
+@media all and (max-width:460px){
+    .main-occupation-wrapper,.main-reviews-row{
+        padding: 0;
+    }
+    .main-contacts-row-card{
+        margin: 20px;
+    }
+    .main-project-title,.main-occupation-title,.main-answers-title,.main-reviews-title,.main-contacts-title{
+        font-size: 26px;
+    }
+}
+@media all and (max-width:413px){
+    .main-connectio-slogan-title{
+        font-size: 16px;
+    }
+    .main-connectio-slogan-text{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:413px){
+    .header{
+        margin-bottom: 850px;
+    }
+    .footer-wrapper{
+        justify-content: space-evenly;
+    }
+    .main-occupation-wrapper-card{
+        width: 330px;
+    }
+}
+@media all and (max-width:370px){
+    .main-connectio-slogan-text{
+        font-size: 11px;
+    }
+}
